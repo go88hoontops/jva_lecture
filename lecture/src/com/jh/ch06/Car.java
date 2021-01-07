@@ -21,7 +21,7 @@ public class Car {
 		
 	}
 	
-	boolean isLeftGas(){
+	public boolean isLeftGas(){
 		if( Gas == 0) {
 			System.out.println("가스없어");
 			return false;
@@ -31,7 +31,7 @@ public class Car {
 		}
 	}
 	
-	void run() {
+	public void run() {
 		while (true) {
 			if(Gas > 0) {
 				 System.out.println("전속력으로 밟아버렷! GAS 잔량 :" + Gas);
@@ -42,7 +42,7 @@ public class Car {
 			}
 		}
 	}
-	////========================================차량 오버로딩
+	////========================================차량 오버로딩 (생성자)
 	Car(){
 		
 	}
