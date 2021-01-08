@@ -11,8 +11,8 @@ public class Calculator {
 	return result;
 	}
 	
-	double devide (int a, int b) {
-	double result = (double)a / (double)b;
+	double divide (int x, int y) {
+	double result = (double)x / (double)y;
 	return result;
 	}
 	
@@ -30,9 +30,12 @@ public class Calculator {
 		calculator.powerOn();
 		
 		
-		int result1 = calculator.plus(6, 8);
+		int result1 = calculator.plus(5, 6);
 		System.out.println(result1);
-		double result2 = calculator.devide(9, 18);
+		
+		byte x =10;
+		byte y =4;
+		double result2 = calculator.divide(x,y);
 		System.out.println(result2);
 	
 		calculator.off();
