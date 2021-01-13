@@ -3,7 +3,7 @@ package com.jh.ch06;
 public class Calculator {
 	
 	void powerOn () {
-			System.out.println("Àü¿øÄÑÁý´Ï´Ù");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½");
 			}
 	
 	int plus(int a ,int b) {
@@ -18,14 +18,14 @@ public class Calculator {
 	
 	
 	void off() {
-		 System.out.println("Àü¿øÀ»²ü´Ï´Ù.");
+		 System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
 	}
 	
 	
 	public static void main(String[] args) {
 
 	
-		Calculator calculator = new Calculator(); //°´Ã¼»ý¼º 
+		Calculator calculator = new Calculator(); //ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½ï¿½ 
 		
 		calculator.powerOn();
 		
