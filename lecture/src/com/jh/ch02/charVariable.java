@@ -7,7 +7,7 @@ public class charVariable {
 		char v1 = 'A';
 		char v2 = 65;
 		char v3 ='\u0041';
-		char v4 = '°¡';
+		char v4 = 'a';
 		char v5 = 44032;
 		char v6 = '\uac00';
 		

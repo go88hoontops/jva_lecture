@@ -6,14 +6,14 @@ public class PromotionExam {
 
 		
 		byte byteValue = 10;
-		int intValue = byteValue; //int < byte °ªÀ» ³Ö´Â°ÅÀÓ
+		int intValue = byteValue; //int < byte ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´Â°ï¿½ï¿½ï¿½
 		
 		System.out.println(intValue);
 		
 		
-		char charValue = '°¡';
+		char charValue = 'd';
 		intValue = charValue;
-		System.out.println("°¡ÀÇ À¯´ÏÄÚµå= " + intValue);
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½= " + intValue);
 		
 		intValue = 500;
 		long longValue = intValue;

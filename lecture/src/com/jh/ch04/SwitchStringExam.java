@@ -4,20 +4,20 @@ public class SwitchStringExam {
 
 	public static void main(String[] args) {
 
-		String position = "ÀÏ¹Ý¤·¤·¤·";
+		String position = "ï¿½Ï¹Ý¤ï¿½ï¿½ï¿½ï¿½ï¿½";
 		
 		
 		switch(position) {
 		
-		case "ºÎÀå":
-			System.out.println("¿ù 700 ¿À¿ì¤¹!");
+		case "b":
+			System.out.println("ï¿½ï¿½ 700 ï¿½ï¿½ï¿½ì¤¹!");
 			break;
 			
-		case "°úÀå":
-			System.out.println("¿ù 500 ¿À¿ì¤¶");
+		case "a":
+			System.out.println("ï¿½ï¿½ 500 ï¿½ï¿½ï¿½ì¤¶");
 			break;
 		default:
-			System.out.println("¿ù 300 ¿À¿ì¿¹");
+			System.out.println("ï¿½ï¿½ 300 ï¿½ï¿½ï¿½ì¿¹");
 			
 		
 		

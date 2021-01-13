@@ -8,7 +8,7 @@ public class CharExam {
 		char a2 = 65;
 		char a3 ='\u0041';
 		
-		char a4 ='°¡';
+		char a4 ='a';
 		char a5 = 44032;
 		char a6 = '\uac00';
 		
