@@ -1,6 +1,7 @@
 		package com.jh.test;
-		
-		public class Computer {
+
+
+public class Computer {
 			//21-01-07 이정훈
 			//만드는중
 			//목표는 power 함수값으로 컴퓨터를 키고 남은양을 출력
@@ -20,6 +21,9 @@
 		
 	String cpuz;
 			
+	public class print{
+		
+	}
 			Computer(){
 				
 			}
@@ -91,8 +95,9 @@
 						break;
 					}else {
 						System.out.println("======----파워부족----======");
+						result = powerW[i];
 						result2 = powerW[i] -= use[0];
-						System.out.println("부족한 전력: " + result2);
+						System.out.println("부족한 전력: " + result);
 						System.out.println("다음파워로 재시작");
 					
 					}
@@ -103,7 +108,7 @@
 			
 			public int startbuttonworking (int[] powerW) {
 					int[] use = {330};
-					int result = 0;
+					int result,result2 = 0;
 					int i = 0;
 			if(use[0] < powerW[i]) {
 				System.out.println( powerW[i]+"파워량");
@@ -115,13 +120,14 @@
 						System.out.println("사용전력 "+use[0]+"\t"+" 남은전력: " + result);
 			
 				}else{
+					result2 = powerW[i] -= use[0];
 							System.out.println("======-----전력부족-----======");
-							System.out.println("부족한 전력: " +"\t"+result);	
+							System.out.println("부족한 전력: " +"\t"+result2);	
 						
-							System.out.println(result);
+							System.out.println(result2);
 			
 						}
-				return  result;
+				return  result2;
 			}
 		
 		
