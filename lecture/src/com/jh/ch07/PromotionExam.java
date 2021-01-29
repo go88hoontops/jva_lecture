@@ -1,9 +1,9 @@
 package com.jh.ch07;
 
-Class A{}
+	 Class A{}
 
-Class B extends A{}
-Class C extends A{}
+	 Class B extends A{}
+	 Class C extends A{}
 
 Class D extends B{}
 Class E extends C{}

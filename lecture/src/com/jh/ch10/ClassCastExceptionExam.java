@@ -9,16 +9,24 @@ public class ClassCastExceptionExam {
 		Dog dog = new Dog();
 		changeDog(dog);
 	
+		try {
 		Cat cat = new Cat();
 		changeDog(cat);
+		}catch(Exception e) {
+			System.out.println("ClasscastException 발생");
+		}
+		finally {
+		System.out.println("수정때림 ㅋ");	
+		
+		}
 	}		
 		
 		public static void changeDog(Animal animal){
 			
 			
-			if(animal instanceof Dog) {
+			//if(animal instanceof Dog) {
 				Dog dog = (Dog) animal;
-			}else {
+			//}else {
 				
 			}
 
@@ -28,5 +36,5 @@ public class ClassCastExceptionExam {
 		class Dog extends Animal{}
 		class Cat extends Animal{	}
 		
-	}
+	
 
