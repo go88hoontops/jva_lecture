@@ -16,14 +16,14 @@ public class Person {
 	public static void main(String[] args) {
 
 		
-		Person p1 =new Person("1123455-44332212", "°è¹é");
+		Person p1 =new Person("1123455-44332212", "ê°€ë§ˆë‹ˆ");
 	
 		
 		System.out.println(p1.nation);
 		System.out.println(p1.ssn);
 		System.out.println(p1.name);
 		
-		p1.name = "À»Áö¹®´ö";
+		p1.name = "ê·€ì—½ë…¸";
 		System.out.println(p1.name);
 //		p1.nation = "usa";
 	}

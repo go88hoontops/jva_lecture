@@ -8,7 +8,7 @@ public class FileInputStream implements AutoCloseable {
 	}
 	
 	public void read() {
-		System.out.println(file +" 을 열수없습니다.");
+		System.out.println(file +" 을 읽어봅니다.");
 	}
 	
 	@Override
