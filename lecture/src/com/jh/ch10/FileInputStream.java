@@ -14,7 +14,7 @@ public class FileInputStream implements AutoCloseable {
 	@Override
 	public void close() throws Exception {
 	
-		System.out.println( flie + " 을 닫습니다.");
+	//	System.out.println( flie + " 을 닫습니다.");
 	}
 }
  
